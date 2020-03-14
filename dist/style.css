@@ -13902,6 +13902,10 @@ video {
   transition-property: transform;
 }
 
+.transition-height{
+  transition-property: height;
+}
+
 .ease-linear{
   transition-timing-function: linear;
 }
@@ -13973,6 +13977,11 @@ video {
 .button-gradient {
   background: #8e2de2; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #8e2de2, #4a00e0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.mobile-navigation-gradient {
+  background: #8e2de2; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: radial-gradient(#8e2de2, #4a00e0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .lato-font {
@@ -30424,6 +30433,10 @@ video {
     transition-property: transform;
   }
 
+  .sm\:transition-height{
+    transition-property: height;
+  }
+
   .sm\:ease-linear{
     transition-timing-function: linear;
   }
@@ -43747,6 +43760,10 @@ video {
 
   .md\:transition-transform{
     transition-property: transform;
+  }
+
+  .md\:transition-height{
+    transition-property: height;
   }
 
   .md\:ease-linear{
@@ -57074,6 +57091,10 @@ video {
     transition-property: transform;
   }
 
+  .lg\:transition-height{
+    transition-property: height;
+  }
+
   .lg\:ease-linear{
     transition-timing-function: linear;
   }
@@ -70397,6 +70418,10 @@ video {
 
   .xl\:transition-transform{
     transition-property: transform;
+  }
+
+  .xl\:transition-height{
+    transition-property: height;
   }
 
   .xl\:ease-linear{

@@ -256,21 +256,24 @@ While (i < you) {
       <div class="container mt-16 px-4 mb-24">
         <h3 class="text-3xl lato-font font-bold w-full pb-4">Portfolios.</h3>
         <ul class="list-none flex w-full">
-          <li class="mr-4 text-xs lato-font uppercase mixitup-control-active" data-filter="all">
+          <li class="mr-4 text-xs lato-font uppercase mixitup-control-active cursor-pointer" data-filter="all">
             All Projects
           </li>
-          <li class="mr-4 text-xs lato-font uppercase" data-filter=".webs">
+          <li class="mr-4 text-xs lato-font uppercase cursor-pointer" data-filter=".webs">
             Website
           </li>
-          <li class="mr-4 text-xs lato-font uppercase" data-filter=".mobiles">
+          <li class="mr-4 text-xs lato-font uppercase cursor-pointer" data-filter=".mobiles">
             Mobile App
+          </li>
+          <li class="mr-4 text-xs lato-font uppercase cursor-pointer" data-filter=".others">
+            Others
           </li>
         </ul>
         <div id="mixitem" class="w-full clearfix">
-          <div class="mix md:w-1/4 w-1/2 webs p-2 float-left">
+          <div class="mix md:w-1/4 w-1/2 webs p-2 float-left cursor-pointer">
             <div class="w-full mt-4">
-              <a data-toggle="modal" data-target="#portfolio-modal" data-name="chatapp" title="Chat app ReactJS" class="w-full">
-                <img src="./images/chatapp.png" alt="Chat App" class="w-full rounded-t-lg h-48 object-cover center border-t-2 border-l-2 border-r-2 border-gray-200 overflow-hidden" />
+              <a href="https://github.com/shivaluma/Chat-App" target="_blank" title="View on Github!" class="w-full">
+                <img src="./images/chatapp.jpg" alt="Chat App" class="w-full rounded-t-lg h-48 object-cover center border-t-2 border-l-2 border-r-2 border-gray-200 overflow-hidden" />
                 <div class="w-full border-b-2 border-l-2 border-r-2 border-gray-300 rounded-b-lg p-2">
                   <span class="lato-font text-md font-bold text-black w-full">Chat Web App</span>
                   <p class="text-sm font-semibold text-gray-700 w-full">5 March - 10 March</p>
@@ -280,8 +283,8 @@ While (i < you) {
           </div>
           <div class="mix md:w-1/4 w-1/2 webs p-2 float-left">
             <div class="w-full mt-4 ">
-              <a data-toggle="modal" data-target="#portfolio-modal" data-name="shop" title="Shop web app" href="#" class="w-full">
-                <img src="./images/shopapp.png" alt="test" class="w-full h-48 rounded-t-lg object-cover center border-t-2 border-l-2 border-r-2 border-gray-200 overflow-hidden" />
+              <a href="https://github.com/shivaluma/Shop-nodejs-express-mongoose" target="_blank" title="Shop web app" class="w-full">
+                <img src="./images/shopapp.jpg" alt="test" class="w-full h-48 rounded-t-lg object-cover center border-t-2 border-l-2 border-r-2 border-gray-200 overflow-hidden" />
                 <div class="w-full border-b-2 border-l-2 border-r-2 border-gray-300 rounded-b-lg p-2">
                   <span class="lato-font text-md font-bold text-black w-full">Shopping Web App</span>
                   <p class="text-sm font-semibold text-gray-700 w-full">Sep 2019 - Nov 2019</p>
@@ -291,8 +294,8 @@ While (i < you) {
           </div>
           <div class="mix md:w-1/4 w-1/2 mobiles p-2 float-left">
             <div class="w-full mt-4 ">
-              <a data-toggle="modal" data-target="#portfolio-modal" data-name="travel" title="Travel Assistant Android App" href="#" class="w-full">
-                <img src="./images/travel.png" alt="test" class="w-full h-48 rounded-t-lg object-center object-cover border-t-2 border-l-2 border-r-2 border-gray-200 overflow-hidden" />
+              <a title="Travel Assistant Android App" href="https://github.com/shivaluma/Travel-Assistant-Android-App-Kotlin" target="_blank" class="w-full">
+                <img src="./images/travel.jpg" alt="test" class="w-full h-48 rounded-t-lg object-center object-cover border-t-2 border-l-2 border-r-2 border-gray-200 overflow-hidden" />
                 <div class="w-full border-b-2 border-l-2 border-r-2 border-gray-300 rounded-b-lg p-2">
                   <span class="lato-font text-md font-bold text-black w-full">Travel Assistant Android</span>
                   <p class="text-sm font-semibold text-gray-700 w-full">Sep 2019 - Nov 2019</p>
@@ -300,13 +303,49 @@ While (i < you) {
               </a>
             </div>
           </div>
-          <div class="mix md:w-1/4 w-1/2 webs p-2 float-left">
+          <div class="mix md:w-1/4 w-1/2 mobiles p-2 float-left">
             <div class="w-full mt-4 ">
-              <a data-toggle="modal" data-target="#portfolio-modal" data-name="note" title="Note app android" href="#" class="w-full">
-                <img src="./images/note.png" alt="test" class="w-full h-48 object-cover rounded-t-lg " />
+              <a title="Note app android" href="https://github.com/shivaluma/note_app_kotlin" target="_blank" class="w-full">
+                <img src="./images/note.jpg" alt="test" class="w-full h-48 object-cover rounded-t-lg " />
                 <div class="w-full border-b-2 border-l-2 border-r-2 border-gray-300 rounded-b-lg p-2">
                   <span class="lato-font text-md font-bold text-black w-full">Note App Android</span>
                   <p class="text-sm font-semibold text-gray-700 w-full">3 days</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="mix md:w-1/4 w-1/2 others p-2 float-left">
+            <div class="w-full mt-4 ">
+              <a title="Socket CPP" href="https://github.com/shivaluma/Socket-Cpp" target="_blank" class="w-full">
+                <img src="./images/socket.jpg" alt="test" class="w-full h-48 object-cover rounded-t-lg " />
+                <div class="w-full border-b-2 border-l-2 border-r-2 border-gray-300 rounded-b-lg p-2">
+                  <span class="lato-font text-md font-bold text-black w-full">Socket CPP</span>
+                  <p class="text-sm font-semibold text-gray-700 w-full">3 weeks</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="mix md:w-1/4 w-1/2 webs p-2 float-left">
+            <div class="w-full mt-4 ">
+              <a title="Dealers" href="https://github.com/shivaluma/Dealers_Bootstrap4" target="_blank" class="w-full">
+                <img src="./images/dealer.jpg" alt="test" class="w-full h-48 object-cover rounded-t-lg " />
+                <div class="w-full border-b-2 border-l-2 border-r-2 border-gray-300 rounded-b-lg p-2">
+                  <span class="lato-font text-md font-bold text-black w-full">Cut PSD : Dealers</span>
+                  <p class="text-sm font-semibold text-gray-700 w-full">1 week</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="mix md:w-1/4 w-1/2 webs p-2 float-left">
+            <div class="w-full mt-4 ">
+              <a title="Expense Tracker" href="https://github.com/shivaluma/Expense-Tracker-ReactJS" target="_blank" class="w-full">
+                <img src="./images/tracker.jpg" alt="test" class="w-full h-48 object-cover rounded-t-lg " />
+                <div class="w-full border-b-2 border-l-2 border-r-2 border-gray-300 rounded-b-lg p-2">
+                  <span class="lato-font text-md font-bold text-black w-full">Expense Tracker React</span>
+                  <p class="text-sm font-semibold text-gray-700 w-full">1 day</p>
                 </div>
               </a>
             </div>

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./dist/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.0.45/css/materialdesignicons.min.css" />
+
+    <title>Nguyễn Viết Thanh</title>
+  </head>
+  <body class="box-border">
+    <header class="fixed h-20 top-0 left-0 w-full py-4 border-b-2 border-gray-200 bg-white z-50">
+      <div class="container h-12 flex items-center justify-between px-4">
+        <div class="text-2xl text-gray-800">
+          <h1 class="underscope">Shiro</h1>
+        </div>
+
+        <div class="block md:hidden">
+          <button class="flex items-center px-3 py-2 border rounded text-gray-800 focus:outline-none border-gray-800 hover:text-purple-500 hover:border-purple-500">
+            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+        </div>
+
+        <nav class="h-full md:flex items-center text-gray-800 hidden">
+          <a href="#hello" class="p-1 hover:text-blue-600 hover:underline text-sm mr-8 lato-font">HELLO</a>
+          <a href="#skill" class="p-1 hover:text-blue-600 hover:underline text-sm mr-8 lato-font">SKILLS</a>
+          <a href="#education" class="p-1 hover:text-blue-600 hover:underline text-sm mr-8 lato-font">EDUCATION</a>
+
+          <a href="#portfolio" class="p-1 hover:text-blue-600 hover:underline text-sm lato-font">PORTFOLIO</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- SECTION HELLO -->
+    <section id="hello" class="w-full mt-20 border-b-2 border-gray-200 jumptarget">
+      <div class="container px-4 py-12 flex flex-col md:flex-row ">
+        <!-- LEFT COL -->
+        <div class="flex flex-col pr-4 md:w-1/2 w-full ">
+          <h3 class="text-gray-800 text-3xl lato-font font-bold animated row-start-1 bounce">
+            Hello! ^^
+          </h3>
+          <p class="text-gray-700 text-base break-words">
+            I'm Nguyen Viet Thanh, a 3rd-year student of Ho Chi Minh University Of Science with good knowledge about OOPs, Data structures and algorithm (I got 9.5 mark for each subject) <br />
+            Learning new languages and technologies is what I am passionate about (I self-taught Kotlin with 3 weeks to finish my blueprint in "Develop application for mobile devices course in school"
+            because i found that java is confusing and Kotlin have tools that short your work). I can work alone and be a helpful teammate as well.
+          </p>
+          <!-- INFO -->
+          <div class="mt-4 flex flex-col">
+            <div class="mb-2">
+              <span class="field float-left block lato-font text-xs uppercase">Email</span>
+              <span class="text-sm">shivaluma@gmail.com</span>
+            </div>
+
+            <div class="mb-2">
+              <span class="field float-left block lato-font text-xs uppercase">Phone</span>
+              <span class="text-sm">0866046918</span>
+            </div>
+
+            <div class="mb-2">
+              <span class="field float-left block lato-font text-xs uppercase">University</span>
+              <span class="text-sm">VNUHCM - University Of Science</span>
+            </div>
+
+            <div class="mb-2">
+              <span class="field float-left block lato-font text-xs uppercase">Address</span>
+              <span class="text-sm">Binh Trieu Market, Thu Duc, Ho Chi Minh</span>
+            </div>
+
+            <div class="mb-2">
+              <span class="field float-left block lato-font text-xs uppercase">Social</span>
+              <span class="flex">
+                <a target="_blank" href="https://www.facebook.com/shivaluma" class="mdi fonts-icons mdi-facebook mr-1 hover:text-blue-500"></a>
+
+                <a target="_blank" href="https://www.instagram.com/khongphaithanhdau" class="mdi fonts-icons mdi-instagram mr-1 hover:text-pink-500"></a>
+
+                <a target="_blank" href="http://linkedin.com/in/shivaluma" class="mdi fonts-icons mdi-linkedin mr-1 hover:text-blue-700"></a>
+
+                <a target="_blank" href="http://github.com/shivaluma" class="mdi fonts-icons mdi-github mr-1 hover:text-black hover:opacity-100"></a>
+              </span>
+            </div>
+          </div>
+          <!-- CV -->
+
+          <div class="mt-4 ">
+            <a
+              href="https://www.topcv.vn/xem-cv/822635ced0ff16ed1cf6b3e587c99e80"
+              target="_blank"
+              class="px-10 py-4 button-gradient rounded-lg text-white lato-font uppercase text-sm focus:outline-none shadow-xl"
+            >
+              Download CV
+            </a>
+          </div>
+        </div>
+        <div class="md:w-1/2 w-full bg-cover bg-no-repeat bg-center rounded-lg overflow-hidden shadow-xl" style="background-image: url('./images/dev.jpg');"></div>
+      </div>
+    </section>
+
+    <!-- Section Skill -->
+    <section id="skill" class="w-full border-b-2 border-gray-200 jumptarget">
+      <div class="container flex flex-col md:flex-row px-4 py-16">
+        <div class="md:w-4/12 w-full pr-8">
+          <div class="w-full flex flex-col h-full justify-between">
+            <div>
+              <h3 class="text-3xl lato-font font-bold">Skills.</h3>
+              <p class="text-gray-700" style="line-height: 1.6;">
+                I am inspired by creating great work with people who are as passionate as I am about building something awesome.
+              </p>
+            </div>
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 hidden md:block mt-8" viewBox="0 0 630 630">
+              <rect width="630" height="630" fill="#f7df1e" />
+              <path
+                d="m423.2 492.19c12.69 20.72 29.2 35.95 58.4 35.95 24.53 0 40.2-12.26 40.2-29.2 0-20.3-16.1-27.49-43.1-39.3l-14.8-6.35c-42.72-18.2-71.1-41-71.1-89.2 0-44.4 33.83-78.2 86.7-78.2 37.64 0 64.7 13.1 84.2 47.4l-46.1 29.6c-10.15-18.2-21.1-25.37-38.1-25.37-17.34 0-28.33 11-28.33 25.37 0 17.76 11 24.95 36.4 35.95l14.8 6.34c50.3 21.57 78.7 43.56 78.7 93 0 53.3-41.87 82.5-98.1 82.5-54.98 0-90.5-26.2-107.88-60.54zm-209.13 5.13c9.3 16.5 17.76 30.45 38.1 30.45 19.45 0 31.72-7.61 31.72-37.2v-201.3h59.2v202.1c0 61.3-35.94 89.2-88.4 89.2-47.4 0-74.85-24.53-88.81-54.075z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="md:w-8/12 w-full mt-1">
+          <div class="w-full clearfix md:block flex flex-col">
+            <div class="md:w-1/2 w-full pr-4 float-left ">
+              <h4 class="text-xl lato-font">Programming Languages</h4>
+              <p class="text-base text-gray-700">
+                HTML5, CSS3, Javascript, Java, Kotlin, C/C++
+              </p>
+            </div>
+            <div class="md:w-1/2 w-full float-left md:mt-0 mt-4">
+              <h4 class="text-xl lato-font">Frameworks</h4>
+              <p class="text-base text-gray-700">
+                ReactJS, NodeJS, SCSS, PostCSS, Bootstrap 4, TailwindCSS, Jquery
+              </p>
+            </div>
+            <div class="md:w-1/2 w-full float-left mt-4 md:border-t-2 md:border-gray-200 md:pt-4">
+              <h4 class="text-xl lato-font">Database Management Systems</h4>
+              <p class="text-base text-gray-700">
+                MS SQL Server, MongoDB, Mongoose
+              </p>
+            </div>
+            <div class="md:w-1/2 w-full float-left mt-4 md:border-t-2 md:border-gray-200 md:pt-4">
+              <h4 class="text-xl lato-font">Others</h4>
+              <p class="text-base text-gray-700">
+                Git, Socket.io, Photoshop, Linux <br />
+                Willing to learn : Golang, GraphQL, Redis
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section education -->
+
+    <section id="education" class="w-full border-b-2 border-gray-200 jumptarget">
+      <div class="container flex flex-col md:flex-row px-4 py-16">
+        <div class="md:w-4/12 w-full pr-8">
+          <div class="w-full flex flex-col h-full justify-between">
+            <div>
+              <h3 class="text-3xl lato-font font-bold">Education.</h3>
+              <p class="text-gray-700" style="line-height: 1.6;">
+                <!-- prettier-ignore -->
+              </p>
+
+              <pre>
+                  <code>
+While (i < you) { 
+  i++; 
+}
+                  </code>
+                </pre>
+            </div>
+
+            <svg class="h-20 w-auto hidden md:block mt-8" viewBox="0 0 273 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <title>Tailwind CSS</title>
+              <path
+                fill="url(#paint0_linear)"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M32 16C24.8 16 20.3 19.6 18.5 26.8C21.2 23.2 24.35 21.85 27.95 22.75C30.004 23.2635 31.4721 24.7536 33.0971 26.4031C35.7443 29.0901 38.8081 32.2 45.5 32.2C52.7 32.2 57.2 28.6 59 21.4C56.3 25 53.15 26.35 49.55 25.45C47.496 24.9365 46.0279 23.4464 44.4029 21.7969C41.7557 19.1099 38.6919 16 32 16ZM18.5 32.2C11.3 32.2 6.8 35.8 5 43C7.7 39.4 10.85 38.05 14.45 38.95C16.504 39.4635 17.9721 40.9536 19.5971 42.6031C22.2443 45.2901 25.3081 48.4 32 48.4C39.2 48.4 43.7 44.8 45.5 37.6C42.8 41.2 39.65 42.55 36.05 41.65C33.996 41.1365 32.5279 39.6464 30.9029 37.9969C28.2557 35.3099 25.1919 32.2 18.5 32.2Z"
+              ></path>
+
+              <defs>
+                <linearGradient id="paint0_linear" x1="3.5" y1="16" x2="59" y2="48" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#2298BD"></stop>
+                  <stop offset="1" stop-color="#0ED7B5"></stop>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+        <div class="md:w-8/12 w-full mt-4">
+          <div class="w-full clearfix md:block flex flex-col">
+            <div class="md:flex">
+              <div class="md:flex-shrink-0 hidden md:block">
+                <img class="rounded-lg md:w-56 transform duration-500 hover:scale-110 overflow-hidden" src="./images/hcmus.png" alt="Woman paying for a purchase" />
+              </div>
+              <div class="mt-4 md:mt-0 md:ml-6">
+                <div class="uppercase tracking-wide text-sm text-indigo-600 font-bold">
+                  VNU - University Of Science
+                </div>
+                <span class="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline">Sep, 2017 - 2021</span>
+                <p class="mt-2 text-gray-600">
+                  Bachelor of Science in Software Development. <br />
+                  GPA : 8.2/10
+                </p>
+              </div>
+            </div>
+
+            <div class="md:flex mt-12">
+              <div class="md:flex-shrink-0 hidden md:block">
+                <img class="rounded-lg md:w-56 h-32 transform hover:scale-110 duration-500 overflow-hidden" src="./images/pvd'.jpg" alt="Pham Van Dong" />
+              </div>
+              <div class="mt-4 md:mt-0 md:ml-6">
+                <div class="uppercase tracking-wide text-sm text-indigo-600 font-bold">
+                  Pham Van Dong Highschool - Quang Ngai
+                </div>
+                <span href="#" class="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline">2014 - 2017</span>
+                <p class="mt-2 text-gray-600">
+                  My highschool eheh
+                </p>
+              </div>
+            </div>
+
+            <div class="md:flex mt-12">
+              <div class="md:flex-shrink-0 hidden md:block">
+                <img class="rounded-lg md:w-56 transform hover:scale-110 duration-500 overflow-hidden" src="./images/udemy.jpeg" alt="Udemy" />
+              </div>
+              <div class="mt-4 md:mt-0 md:ml-6">
+                <div class="uppercase tracking-wide text-sm text-indigo-600 font-bold">
+                  Udemy
+                </div>
+                <span class="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline">Freetime</span>
+                <p class="mt-2 text-gray-600">
+                  This is the website which i have learned a lot of technical skills from courses by mentor in here, like Javascript (dom and ES6), build an RestAPI with NodeJS and ExpressJS, MongoDB,
+                  build an Android Application by Java and Kotlin, etc...
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Portfolio -->
+
+    <section id="portfolio" class="w-full jumptarget">
+      <div class="container mt-16 px-4 mb-24">
+        <h3 class="text-3xl lato-font font-bold w-full pb-4">Portfolios.</h3>
+        <ul class="list-none flex w-full">
+          <li class="mr-4 text-xs lato-font uppercase mixitup-control-active" data-filter="all">
+            All Projects
+          </li>
+          <li class="mr-4 text-xs lato-font uppercase" data-filter=".webs">
+            Website
+          </li>
+          <li class="mr-4 text-xs lato-font uppercase" data-filter=".mobiles">
+            Mobile App
+          </li>
+        </ul>
+        <div id="mixitem" class="w-full clearfix">
+          <div class="mix md:w-1/4 w-1/2 webs p-2 float-left">
+            <div class="w-full mt-4">
+              <a data-toggle="modal" data-target="#portfolio-modal" data-name="chatapp" title="Chat app ReactJS" class="w-full">
+                <img src="./images/chatapp.png" alt="Chat App" class="w-full rounded-t-lg h-48 object-cover center border-t-2 border-l-2 border-r-2 border-gray-200 overflow-hidden" />
+                <div class="w-full border-b-2 border-l-2 border-r-2 border-gray-300 rounded-b-lg p-2">
+                  <span class="lato-font text-md font-bold text-black w-full">Chat Web App</span>
+                  <p class="text-sm font-semibold text-gray-700 w-full">5 March - 10 March</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="mix md:w-1/4 w-1/2 webs p-2 float-left">
+            <div class="w-full mt-4 ">
+              <a data-toggle="modal" data-target="#portfolio-modal" data-name="shop" title="Shop web app" href="#" class="w-full">
+                <img src="./images/shopapp.png" alt="test" class="w-full h-48 rounded-t-lg object-cover center border-t-2 border-l-2 border-r-2 border-gray-200 overflow-hidden" />
+                <div class="w-full border-b-2 border-l-2 border-r-2 border-gray-300 rounded-b-lg p-2">
+                  <span class="lato-font text-md font-bold text-black w-full">Shopping Web App</span>
+                  <p class="text-sm font-semibold text-gray-700 w-full">Sep 2019 - Nov 2019</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="mix md:w-1/4 w-1/2 mobiles p-2 float-left">
+            <div class="w-full mt-4 ">
+              <a data-toggle="modal" data-target="#portfolio-modal" data-name="travel" title="Travel Assistant Android App" href="#" class="w-full">
+                <img src="./images/travel.png" alt="test" class="w-full h-48 rounded-t-lg object-center object-cover border-t-2 border-l-2 border-r-2 border-gray-200 overflow-hidden" />
+                <div class="w-full border-b-2 border-l-2 border-r-2 border-gray-300 rounded-b-lg p-2">
+                  <span class="lato-font text-md font-bold text-black w-full">Travel Assistant Android</span>
+                  <p class="text-sm font-semibold text-gray-700 w-full">Sep 2019 - Nov 2019</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="mix md:w-1/4 w-1/2 webs p-2 float-left">
+            <div class="w-full mt-4 ">
+              <a data-toggle="modal" data-target="#portfolio-modal" data-name="note" title="Note app android" href="#" class="w-full">
+                <img src="./images/note.png" alt="test" class="w-full h-48 object-cover rounded-t-lg " />
+                <div class="w-full border-b-2 border-l-2 border-r-2 border-gray-300 rounded-b-lg p-2">
+                  <span class="lato-font text-md font-bold text-black w-full">Note App Android</span>
+                  <p class="text-sm font-semibold text-gray-700 w-full">3 days</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="w-full button-gradient h-16">
+      <div class="center text-white text-base w-full center text-center transform translate-y-5">&copy; Nguyễn Viết Thanh 2020</div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+      var containerEl = document.getElementById('mixitem');
+      var mixer = mixitup(containerEl);
+    </script>
+  </body>
+</html>
